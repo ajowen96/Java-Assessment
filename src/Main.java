@@ -5,6 +5,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		Player p1 = new Player(10, 10, 10);
+		System.out.println(p1);
+		
+		WildDog e1 = new WildDog(1, 5, 2, 2);
+		System.out.println(e1);
+		
+		Giant e2 = new Giant(2, 20, 5, 5);
+		System.out.println(e2);
+		
 		@SuppressWarnings("resource")
 		Scanner userInput = new Scanner(System.in);
 		
